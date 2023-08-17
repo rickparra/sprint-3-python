@@ -18,7 +18,7 @@ from sklearn.model_selection import train_test_split
 
 """##Pandas"""
 
-df = pd.read_csv('dataset-limpo.csv')
+df = pd.read_csv('dataset.csv')
 df.head()
 
 df.isnull().sum()
