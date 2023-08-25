@@ -1,6 +1,25 @@
-Gabriel Augusto Maciel Toledo, RM551654, Nick no GitHub: GabrielToledoo
 Henrique Parra Benitez, RM551973, Nick no GitHub: rickparra
 Roberto Oliveira Azzalin Navas, RM551460, Nick no GitHub: Robertooan07
 Tony Willian da Silva Segalin, RM550667, Nick no GitHub: TonyWillianFIAP
 
 
+
+
+O código desenvolvido consiste em um sistema de gerenciamento de contas de usuários e geração de 
+gráficos estatísticos. As principais funcionalidades implementadas foram:
+
+Leitura e gravação de dados em arquivo JSON: As funções carregar_contas() e salvar_contas() realizam 
+a interface com o arquivo contas.json para persistir os dados.
+Cadastro e login de usuários: As funções criar_conta() e fazer_login() permitem o cadastro de novos 
+usuários com nome e senha e o login com validação dessas credenciais.
+Menus de navegação: As funções menu() e segundo_menu() contém loops com opções para o usuário navegar 
+pelo sistema.
+Geração de gráficos: As funções clusterizar(), criar_densidade() e tempo_density() fazem a análise 
+dos dados com Pandas e geram gráficos com Plotly.
+Resumo de operações: A função feedback() exibe ao final da execução um resumo das operações 
+realizadas, como contas criadas e gráficos gerados.
+Tratamento de exceções: O código como um todo possui tratamento de exceções para evitar erros.
+Utilização de funções: O programa é estruturado em funções com parâmetros e retornos bem definidos 
+para encapsular as funcionalidades.
+Dessa forma, o código atende aos requisitos solicitados, permitindo o gerenciamento de contas, 
+análise de dados externos e geração de saídas gráficas. As boas práticas de programação e tratamento de erros também foram aplicadas.
