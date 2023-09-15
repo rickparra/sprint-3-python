@@ -203,8 +203,8 @@ def tempo_density():
         df,
         lat='latitude',
         lon='longitude',
-        radius=5,
-        zoom=7,
+        radius=9,
+        zoom=15,
         color_continuous_scale=px.colors.sequential.YlOrRd,
         mapbox_style="stamen-terrain",
         animation_frame='date'
